@@ -15,6 +15,10 @@ venv/
 output/*
 !output/.gitkeep
 
+# Data directory contents (but keep the directory itself)
+data/*
+!data/.gitkeep
+
 # OS
 .DS_Store
 Thumbs.db
