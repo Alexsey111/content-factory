@@ -11,8 +11,9 @@ venv/
 # Env
 .env
 
-# Output
-output/
+# Output directory contents (but keep the directory itself)
+output/*
+!output/.gitkeep
 
 # OS
 .DS_Store
