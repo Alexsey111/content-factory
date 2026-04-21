@@ -19,6 +19,9 @@ output/*
 data/*
 !data/.gitkeep
 
+# Queue file (exclude from git)
+storage/queue.json
+
 # OS
 .DS_Store
 Thumbs.db
